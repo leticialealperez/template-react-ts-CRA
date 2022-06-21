@@ -1,16 +1,16 @@
-import React from "react";
-import Header from "../components/Header/Header";
+import React from 'react';
+import Header from '../components/Banner/Banner';
+import imgBanner from '../assets/image-bg.jpg';
+import SectionIcons from '../components/SectionIcons/SectionIcons';
 
-interface HomeProps {
-  title: string;
-}
-
-const Home: React.FC<HomeProps> = (props: HomeProps) => {
+const Home: React.FC = () => {
   return (
     <>
-      <Header />
-
-      <main></main>
+      <Header
+        titulo='Minha primeira aplicação com ReactJS.'
+        background={imgBanner}
+      />
+      <SectionIcons />
     </>
   );
 };
