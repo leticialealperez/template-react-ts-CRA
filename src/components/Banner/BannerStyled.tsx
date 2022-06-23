@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 interface BannerProps {
-  urlImagem: string;
+  urlImagem: string
 }
 
 const BannerStyled = styled.div<BannerProps>`
@@ -17,6 +17,6 @@ const BannerStyled = styled.div<BannerProps>`
     font-size: 30px;
     color: #fff;
   }
-`;
+`
 
-export default BannerStyled;
+export default BannerStyled

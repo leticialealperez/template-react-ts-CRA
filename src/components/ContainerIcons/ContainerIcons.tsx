@@ -1,10 +1,10 @@
-import * as React from 'react';
-import ContainerIconStyled from './ContainerIconsStyled';
+import * as React from 'react'
+import ContainerIconStyled from './ContainerIconsStyled'
 
 interface ContainerIconProps {
-  icon: React.ReactNode;
-  titulo: string;
-  texto: string;
+  icon: React.ReactNode
+  titulo: string
+  texto: string
 }
 
 const ContainerIcon: React.FC<ContainerIconProps> = ({
@@ -18,7 +18,7 @@ const ContainerIcon: React.FC<ContainerIconProps> = ({
       <h2>{titulo}</h2>
       <p>{texto}</p>
     </ContainerIconStyled>
-  );
-};
+  )
+}
 
-export default ContainerIcon;
+export default ContainerIcon

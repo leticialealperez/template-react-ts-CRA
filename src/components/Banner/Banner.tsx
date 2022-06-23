@@ -1,9 +1,9 @@
-import * as React from 'react';
-import BannerStyled from './BannerStyled';
+import React from 'react'
+import BannerStyled from './BannerStyled'
 
 interface BannerProps {
-  titulo: string;
-  background: string;
+  titulo: string
+  background: string
 }
 
 const Banner: React.FC<BannerProps> = ({ titulo, background }) => {
@@ -11,7 +11,7 @@ const Banner: React.FC<BannerProps> = ({ titulo, background }) => {
     <BannerStyled urlImagem={background}>
       <h6>{titulo}</h6>
     </BannerStyled>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner

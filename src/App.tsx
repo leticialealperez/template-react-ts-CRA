@@ -1,7 +1,7 @@
-import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyle from './config/GlobalStyles';
-import AppRoutes from './routes/AppRoutes';
+import React from 'react'
+import { ThemeProvider } from 'styled-components'
+import GlobalStyle from './config/GlobalStyles'
+import AppRoutes from './routes/AppRoutes'
 
 const temas = {
   dark: {
@@ -15,17 +15,15 @@ const temas = {
     backgroundColor: '#f5f5f5',
     primary: '#6747b6e9',
   },
-};
+}
 
 function App() {
   return (
-    <>
-      <ThemeProvider theme={temas.light}>
-        <GlobalStyle />
-        <AppRoutes />
-      </ThemeProvider>
-    </>
-  );
+    <ThemeProvider theme={temas.light}>
+      <GlobalStyle />
+      <AppRoutes />
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App

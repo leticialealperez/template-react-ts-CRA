@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const ContainerIconStyled = styled.div`
   text-align: center;
@@ -6,6 +6,6 @@ const ContainerIconStyled = styled.div`
     font-size: 80px;
     color: ${(props) => props.theme.primary};
   }
-`;
+`
 
-export default ContainerIconStyled;
+export default ContainerIconStyled
