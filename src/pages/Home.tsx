@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Banner/Banner'
 import imgBanner from '../assets/image-bg.jpg'
 import SectionIcons from '../components/SectionIcons/SectionIcons'
+import Footer from '../components/Footer/Footer'
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
         background={imgBanner}
       />
       <SectionIcons />
+      <Footer />
     </>
   )
 }
